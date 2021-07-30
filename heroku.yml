@@ -1,7 +1,7 @@
 version: "3.1"
 build:
     docker:
-      web: Dockerfile
+      web: voila.Dockerfile
   run:
     web: bundle exec puma -C config/puma.rb
     
