@@ -1,5 +1,5 @@
 build:
     docker:
-      web: voila.Dockerfile
+      web: tensorflow.Dockerfile
   run:
     web: bundle exec puma -C config/puma.rb
